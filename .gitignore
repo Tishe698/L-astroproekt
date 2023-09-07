@@ -1,6 +1,6 @@
 # Python virtual environments
 venv/
-env/
+
 
 # Temporary files
 *.swp
@@ -12,8 +12,7 @@ Thumbs.db
 desktop.ini
 
 # Configuration files
-.env
-.env.local
+
 
 # Cache and logs
 cache/
@@ -34,4 +33,3 @@ credentials.json
 *.jar
 
 # Media files (images, videos, etc.)
-media/
