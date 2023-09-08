@@ -28,7 +28,9 @@ main {
     margin-top: 7%;
 
 }
-
+    .zapisatsa2 {
+        display: none;
+    }
 .block1 {
     background: linear-gradient(180deg, #DCDDD7 0.01%, #DCDDD7 66.98%, #FFF 100%);
     width: 100%;
@@ -461,7 +463,7 @@ main {
         height: 10vw;
         align-items: center;
         border-radius: 4vw;
-        font-size: 4.2vw;
+        font-size: 3.3vw;
         width: 55vw;
         margin-left: -55%;
     }
@@ -505,9 +507,7 @@ main {
 }
 
 @media (min-width: 526px) and (max-width: 992px) {
-    .zapisatsa2 {
-        display: none;
-    }
+
 
     .shkola_ved_astrolog {
         width: 66vw;
