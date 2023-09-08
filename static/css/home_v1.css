@@ -428,7 +428,7 @@ main {
     align-items: center;
 }
 
-@media (min-width: 280px) and (max-width: 525px) {
+@media (min-width: 280px) and (max-width: 580px) {
     .actual_news p {
         font-size: 3.26563vw;
     }
@@ -506,7 +506,7 @@ main {
     }
 }
 
-@media (min-width: 526px) and (max-width: 992px) {
+@media (min-width: 581px) and (max-width: 992px) {
 
 
     .shkola_ved_astrolog {
