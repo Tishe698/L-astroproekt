@@ -426,7 +426,89 @@ main {
     align-items: center;
 }
 
-@media (min-width: 280px) and (max-width: 992px) {
+@media (min-width: 280px) and (max-width: 525px) {
+    .actual_news p {
+        font-size: 3.26563vw;
+    }
+
+    .socia1 {
+        left: 3%;
+        font-size: 9vw;
+            margin-top: 8%;
+    }
+
+    .socia1 img {
+        width: 5.2vw;
+    }
+
+    .text_raskroite {
+        margin: 9% 0 0 13%;
+    }
+
+    .telo {
+        margin: 6% 0 0 0%;
+        display: flex;
+        flex-direction: column;
+        width: 38vw;
+    }
+
+    .zapisatsa2 {
+        display: block;
+        color: white;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        height: 10vw;
+        align-items: center;
+        border-radius: 4vw;
+        font-size: 4.2vw;
+        width: 55vw;
+        margin-left: -55%;
+    }
+
+    .telo img {
+        width: 41vw;
+        margin-left: -4%;
+    }
+
+    .text_raskroite p {
+        font-size: 3.1vw;
+        width: 39vw;
+        line-height: 5vw;
+        letter-spacing: 0.03vw;
+    }
+
+    .ludmila_yzsina {
+        font-size: 13vw;
+        margin: -3.7% 0 0% 4.2%;
+    }
+
+    .shkola_ved_astrolog {
+        width: 100vw;
+        height: 13vw;
+        margin-top: 7%;
+    }
+
+    .shkola_ved_astrolog p {
+        font-size: 5vw;
+        padding-right: 4vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .zapisatsa {
+        display: none;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 526px) and (max-width: 992px) {
+    .zapisatsa2 {
+        display: none;
+    }
+
     .shkola_ved_astrolog {
         width: 66vw;
         height: 11vw;
@@ -473,6 +555,7 @@ main {
         width: 32.5vw;
         height: 5.1vw;
         margin: 4% 0 0 8%;
+        display: none;
     }
 
     .zapisatsa p {
@@ -526,6 +609,10 @@ main {
 }
 
 @media (min-width: 992px) {
+    .zapisatsa2 {
+        display: none;
+    }
+
     .actual_news {
         margin-top: 4%;
     }
