@@ -147,7 +147,7 @@ main {
 
 .menyi_block {
     width: 23.2435vw;
-    height: 34.55081vw;
+    height: 42.55081vw;
     border: 0.3vw solid #FCAD09;
 }
 
@@ -160,7 +160,7 @@ main {
 }
 
 .kartinka img {
-    height: 13.21613vw;
+        height: 20.21613vw;
     object-fit: cover;
     width: 22vw;
 }
@@ -171,9 +171,8 @@ main {
     font-size: 2vw;
     font-weight: 600;
     line-height: 2.71813vw;
-    letter-spacing: 0.10444vw;
     height: 15.5vw;
-    padding-top: 9%;
+    padding-top: 18%;
 }
 
 .smotert_video {
@@ -205,19 +204,18 @@ main {
     /* height: 20.249vw; */
     object-fit: cover;
     width: 22vw;
-    height: 20vw;
+    height: 20.21613vw;
 }
 
 .menyi_text_2 {
     color: rgba(0, 0, 0, 0.66);
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-weight: 600;
-    line-height: 1.61813vw;
-    height: 8.5vw;
-    padding: 1% 0% 0% 0%;
+    height: 15.5vw;
+    padding: 20% 0% 0% 0%;
     margin: 0 auto;
-    width: 54%;
+    width: 100%;
 }
 
 .menyi_text_3 {
@@ -227,28 +225,32 @@ main {
     justify-content: center;
     margin: 0 auto;
     width: 78%;
+        padding-top: 43%;
 }
 
 .menyi_text_3 p {
     color: rgba(0, 0, 0, 0.66);
     text-align: center;
-    font-size: 2.13381vw;
+    font-size: 2.7vw;
     font-style: normal;
     font-weight: 600;
-    line-height: 3.55638vw;
+    line-height: 4.55638vw;
     letter-spacing: 0.17069vw;
 }
 
 .menyi_text_seredina_3 {
-    width: 78%;
+width: 78%;
     margin: 0 auto;
-    height: 17.5vw;
+    height: 24.5vw;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8%;
 }
 
 .menyi_text_seredina_3 p {
     color: rgba(0, 0, 0, 0.66);
     text-align: center;
-    font-size: 1.30556vw;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 600;
     line-height: 2.19013vw; /* 167.751% */
@@ -280,7 +282,7 @@ main {
     display: flex;
     justify-content: center;
     height: 15vw;
-    margin-bottom: 3%;
+    margin-bottom: 32%;
 }
 
 .ekcpers_konsultacia_super {
@@ -332,17 +334,18 @@ main {
     font-weight: 400;
     line-height: 2.22275vw; /* 125% */
     letter-spacing: 0.14225vw;
+    height: 13vw;
 }
 
 .posmotr_spisok_tem {
-    width: 25.7vw;
+    width: 23.7vw;
     height: 4.28406vw;
     background: rgba(255, 255, 255, 0.50);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 12.3% 0% 0% -7%;
+    margin: 12.3% 0% 0% -2%;
 }
 
 .posmotr_spisok_tem p {
@@ -372,11 +375,13 @@ main {
     width: 12.80506vw;
     height: 16.13231vw;
     margin-bottom: 6%;
+    border-radius: 1vw;
 }
 
 .kartinka_posl_block {
     display: flex;
     justify-content: center;
+    margin-bottom: 27%;
 }
 
 .block3 {
@@ -575,9 +580,6 @@ main {
         letter-spacing: 0.52113vw;
     }
 
-    .menyi_text_seredina_3 p {
-        font-size: 1.50556vw;
-    }
 
     .perv_colonka_novostei {
         margin: 10% 5% 18% 5%;
@@ -593,7 +595,7 @@ main {
     }
 
     .menyi_block {
-        transform: scale(1.33);
+        transform: scale(1.22);
     }
 
     .vtoray_stroka_novistei {
@@ -601,11 +603,6 @@ main {
 
     }
 
-    .menyi_text_2 {
-        font-size: 1.4vw;
-        height: 8.5vw;
-        width: 61%;
-    }
 }
 
 @media (min-width: 992px) {
