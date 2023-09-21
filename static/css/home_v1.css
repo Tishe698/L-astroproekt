@@ -3,7 +3,9 @@
     src: url('/static/fonts/1shelleyvolante.ttf') format('truetype');
 }
 
-
+.sait_razrab{
+    color: black;
+}
 * {
     margin: 0;
     padding: 0;
